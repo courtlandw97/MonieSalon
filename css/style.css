@@ -1514,20 +1514,24 @@ h4 {
   font-size: 32px;
 }
 
+img.mapsmall {
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
   img.map {
     display: none;
   }
 }
 
-@media only screen and (max-width: 767px) and (min-width: 991px) {
+@media only screen and (min-width: 767px) and (max-width: 991px) {
   img.mapsmall {
     display: none;
   }
 }
 
-@media screen and (min-width: 766px) {
-  img.mapssmall {
+@media screen and (min-width: 767px) {
+  img.mapxsmall {
     display: none;
   }
 }
