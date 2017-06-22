@@ -1513,3 +1513,9 @@ h4 {
   color: #fff;
   font-size: 32px;
 }
+
+@media screen and (min-width: 991px) {
+  img.map {
+    display: none;
+  }
+}
