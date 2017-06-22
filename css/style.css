@@ -1515,7 +1515,7 @@ h4 {
 }
 
 img.mapsmall {
-  display: block;
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1526,7 +1526,7 @@ img.mapsmall {
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
   img.mapsmall {
-    display: none;
+    display: block;
   }
 }
 
