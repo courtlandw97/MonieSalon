@@ -27,9 +27,9 @@
 
        /* Preloader */
 
-        $(window).on('load', function() {
+        /*$(window).on('load', function() {
           $('body').addClass('loaded');
-        });
+        });*/
 
 
 
