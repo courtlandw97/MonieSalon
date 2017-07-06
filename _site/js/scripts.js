@@ -159,20 +159,20 @@
 
          /* Google Map */
 
-         /*$('#my-address').gMap({
+         $('#my-address').gMap({
             zoom: 15,
             scrollwheel: true,
             maptype: 'ROADMAP',
             markers:[
             {
             address: "2561 S State St, Salt Lake City, Utah 84115",  /* You can change your address from here */
-            /*html: "<b>Monie Salon and Beauty Supply</b>: <br> 2561 S State St, Salt Lake City, Utah 84115",   /* You can change display address text from here */
-          /*  popup: true
+            html: "<b>Monie Salon and Beauty Supply</b>: <br> 2561 S State St, Salt Lake City, Utah 84115",   /* You can change display address text from here */
+           popup: true
             }
             ]
             });
 
 
-          });*/
+          });
 
    })(jQuery);
